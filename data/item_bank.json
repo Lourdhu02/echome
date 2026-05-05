@@ -1,0 +1,2882 @@
+[
+  {
+    "item_id": "q_1",
+    "dimension": "BigFive_C",
+    "text": "This is a mocked question for BigFive_C (Question 1). Do you strongly agree?",
+    "a": 1.03,
+    "b": [
+      -2.31,
+      -1.24,
+      0.51,
+      2.48
+    ]
+  },
+  {
+    "item_id": "q_2",
+    "dimension": "BigFive_E",
+    "text": "This is a mocked question for BigFive_E (Question 2). Do you strongly agree?",
+    "a": 1.85,
+    "b": [
+      -1.78,
+      0.23,
+      0.64,
+      2.76
+    ]
+  },
+  {
+    "item_id": "q_3",
+    "dimension": "BigFive_A",
+    "text": "This is a mocked question for BigFive_A (Question 3). Do you strongly agree?",
+    "a": 1.04,
+    "b": [
+      -1.61,
+      -1.53,
+      -0.7,
+      2.34
+    ]
+  },
+  {
+    "item_id": "q_4",
+    "dimension": "BigFive_N",
+    "text": "This is a mocked question for BigFive_N (Question 4). Do you strongly agree?",
+    "a": 1.68,
+    "b": [
+      -0.61,
+      1.31,
+      1.32,
+      2.99
+    ]
+  },
+  {
+    "item_id": "q_5",
+    "dimension": "Cognitive",
+    "text": "This is a mocked question for Cognitive (Question 5). Do you strongly agree?",
+    "a": 1.15,
+    "b": [
+      -1.07,
+      -0.92,
+      -0.34,
+      0.17
+    ]
+  },
+  {
+    "item_id": "q_6",
+    "dimension": "Lifestyle",
+    "text": "This is a mocked question for Lifestyle (Question 6). Do you strongly agree?",
+    "a": 2.16,
+    "b": [
+      -2.42,
+      -1.45,
+      -0.63,
+      1.93
+    ]
+  },
+  {
+    "item_id": "q_7",
+    "dimension": "Entertainment",
+    "text": "This is a mocked question for Entertainment (Question 7). Do you strongly agree?",
+    "a": 2.28,
+    "b": [
+      -2.65,
+      -2.27,
+      -1.0,
+      0.69
+    ]
+  },
+  {
+    "item_id": "q_8",
+    "dimension": "BigFive_O",
+    "text": "This is a mocked question for BigFive_O (Question 8). Do you strongly agree?",
+    "a": 1.56,
+    "b": [
+      -1.97,
+      0.16,
+      1.19,
+      1.72
+    ]
+  },
+  {
+    "item_id": "q_9",
+    "dimension": "BigFive_C",
+    "text": "This is a mocked question for BigFive_C (Question 9). Do you strongly agree?",
+    "a": 1.72,
+    "b": [
+      -0.96,
+      0.52,
+      0.7,
+      0.92
+    ]
+  },
+  {
+    "item_id": "q_10",
+    "dimension": "BigFive_E",
+    "text": "This is a mocked question for BigFive_E (Question 10). Do you strongly agree?",
+    "a": 1.84,
+    "b": [
+      -2.72,
+      -2.29,
+      -1.41,
+      -1.0
+    ]
+  },
+  {
+    "item_id": "q_11",
+    "dimension": "BigFive_A",
+    "text": "This is a mocked question for BigFive_A (Question 11). Do you strongly agree?",
+    "a": 1.52,
+    "b": [
+      -2.69,
+      -0.94,
+      0.68,
+      2.6
+    ]
+  },
+  {
+    "item_id": "q_12",
+    "dimension": "BigFive_N",
+    "text": "This is a mocked question for BigFive_N (Question 12). Do you strongly agree?",
+    "a": 1.19,
+    "b": [
+      -2.42,
+      -0.13,
+      1.86,
+      2.36
+    ]
+  },
+  {
+    "item_id": "q_13",
+    "dimension": "Cognitive",
+    "text": "This is a mocked question for Cognitive (Question 13). Do you strongly agree?",
+    "a": 1.41,
+    "b": [
+      -1.55,
+      0.3,
+      1.19,
+      2.48
+    ]
+  },
+  {
+    "item_id": "q_14",
+    "dimension": "Lifestyle",
+    "text": "This is a mocked question for Lifestyle (Question 14). Do you strongly agree?",
+    "a": 2.15,
+    "b": [
+      1.7,
+      1.96,
+      2.28,
+      2.99
+    ]
+  },
+  {
+    "item_id": "q_15",
+    "dimension": "Entertainment",
+    "text": "This is a mocked question for Entertainment (Question 15). Do you strongly agree?",
+    "a": 0.9,
+    "b": [
+      -1.86,
+      -1.69,
+      -0.36,
+      -0.11
+    ]
+  },
+  {
+    "item_id": "q_16",
+    "dimension": "BigFive_O",
+    "text": "This is a mocked question for BigFive_O (Question 16). Do you strongly agree?",
+    "a": 1.54,
+    "b": [
+      0.11,
+      1.53,
+      1.55,
+      2.2
+    ]
+  },
+  {
+    "item_id": "q_17",
+    "dimension": "BigFive_C",
+    "text": "This is a mocked question for BigFive_C (Question 17). Do you strongly agree?",
+    "a": 1.71,
+    "b": [
+      -1.89,
+      -1.19,
+      -0.41,
+      2.77
+    ]
+  },
+  {
+    "item_id": "q_18",
+    "dimension": "BigFive_E",
+    "text": "This is a mocked question for BigFive_E (Question 18). Do you strongly agree?",
+    "a": 2.42,
+    "b": [
+      0.02,
+      0.75,
+      1.45,
+      2.18
+    ]
+  },
+  {
+    "item_id": "q_19",
+    "dimension": "BigFive_A",
+    "text": "This is a mocked question for BigFive_A (Question 19). Do you strongly agree?",
+    "a": 0.97,
+    "b": [
+      -2.35,
+      -2.08,
+      2.01,
+      2.68
+    ]
+  },
+  {
+    "item_id": "q_20",
+    "dimension": "BigFive_N",
+    "text": "This is a mocked question for BigFive_N (Question 20). Do you strongly agree?",
+    "a": 1.24,
+    "b": [
+      -2.76,
+      -1.64,
+      -1.0,
+      0.08
+    ]
+  },
+  {
+    "item_id": "q_21",
+    "dimension": "Cognitive",
+    "text": "This is a mocked question for Cognitive (Question 21). Do you strongly agree?",
+    "a": 2.23,
+    "b": [
+      -1.96,
+      -0.5,
+      0.1,
+      0.44
+    ]
+  },
+  {
+    "item_id": "q_22",
+    "dimension": "Lifestyle",
+    "text": "This is a mocked question for Lifestyle (Question 22). Do you strongly agree?",
+    "a": 1.23,
+    "b": [
+      -1.44,
+      0.48,
+      1.94,
+      1.95
+    ]
+  },
+  {
+    "item_id": "q_23",
+    "dimension": "Entertainment",
+    "text": "This is a mocked question for Entertainment (Question 23). Do you strongly agree?",
+    "a": 1.28,
+    "b": [
+      -2.98,
+      -2.26,
+      -1.06,
+      2.75
+    ]
+  },
+  {
+    "item_id": "q_24",
+    "dimension": "BigFive_O",
+    "text": "This is a mocked question for BigFive_O (Question 24). Do you strongly agree?",
+    "a": 2.15,
+    "b": [
+      -1.18,
+      0.76,
+      1.66,
+      1.78
+    ]
+  },
+  {
+    "item_id": "q_25",
+    "dimension": "BigFive_C",
+    "text": "This is a mocked question for BigFive_C (Question 25). Do you strongly agree?",
+    "a": 1.91,
+    "b": [
+      -2.31,
+      -1.52,
+      0.06,
+      0.21
+    ]
+  },
+  {
+    "item_id": "q_26",
+    "dimension": "BigFive_E",
+    "text": "This is a mocked question for BigFive_E (Question 26). Do you strongly agree?",
+    "a": 1.87,
+    "b": [
+      -0.31,
+      0.55,
+      1.65,
+      2.64
+    ]
+  },
+  {
+    "item_id": "q_27",
+    "dimension": "BigFive_A",
+    "text": "This is a mocked question for BigFive_A (Question 27). Do you strongly agree?",
+    "a": 2.34,
+    "b": [
+      -2.33,
+      1.27,
+      1.74,
+      2.56
+    ]
+  },
+  {
+    "item_id": "q_28",
+    "dimension": "BigFive_N",
+    "text": "This is a mocked question for BigFive_N (Question 28). Do you strongly agree?",
+    "a": 1.4,
+    "b": [
+      -0.93,
+      0.96,
+      1.28,
+      1.83
+    ]
+  },
+  {
+    "item_id": "q_29",
+    "dimension": "Cognitive",
+    "text": "This is a mocked question for Cognitive (Question 29). Do you strongly agree?",
+    "a": 1.73,
+    "b": [
+      -1.32,
+      -0.85,
+      -0.28,
+      1.2
+    ]
+  },
+  {
+    "item_id": "q_30",
+    "dimension": "Lifestyle",
+    "text": "This is a mocked question for Lifestyle (Question 30). Do you strongly agree?",
+    "a": 0.87,
+    "b": [
+      -2.71,
+      -2.02,
+      -1.06,
+      -0.02
+    ]
+  },
+  {
+    "item_id": "q_31",
+    "dimension": "Entertainment",
+    "text": "This is a mocked question for Entertainment (Question 31). Do you strongly agree?",
+    "a": 1.97,
+    "b": [
+      -1.63,
+      -1.43,
+      0.49,
+      1.08
+    ]
+  },
+  {
+    "item_id": "q_32",
+    "dimension": "BigFive_O",
+    "text": "This is a mocked question for BigFive_O (Question 32). Do you strongly agree?",
+    "a": 1.84,
+    "b": [
+      -1.23,
+      0.21,
+      0.36,
+      1.19
+    ]
+  },
+  {
+    "item_id": "q_33",
+    "dimension": "BigFive_C",
+    "text": "This is a mocked question for BigFive_C (Question 33). Do you strongly agree?",
+    "a": 1.1,
+    "b": [
+      -2.85,
+      -0.34,
+      0.66,
+      0.91
+    ]
+  },
+  {
+    "item_id": "q_34",
+    "dimension": "BigFive_E",
+    "text": "This is a mocked question for BigFive_E (Question 34). Do you strongly agree?",
+    "a": 2.43,
+    "b": [
+      -1.13,
+      -0.14,
+      1.71,
+      2.17
+    ]
+  },
+  {
+    "item_id": "q_35",
+    "dimension": "BigFive_A",
+    "text": "This is a mocked question for BigFive_A (Question 35). Do you strongly agree?",
+    "a": 1.95,
+    "b": [
+      -2.87,
+      -1.63,
+      0.09,
+      0.93
+    ]
+  },
+  {
+    "item_id": "q_36",
+    "dimension": "BigFive_N",
+    "text": "This is a mocked question for BigFive_N (Question 36). Do you strongly agree?",
+    "a": 2.41,
+    "b": [
+      -2.93,
+      -2.54,
+      -1.81,
+      -1.44
+    ]
+  },
+  {
+    "item_id": "q_37",
+    "dimension": "Cognitive",
+    "text": "This is a mocked question for Cognitive (Question 37). Do you strongly agree?",
+    "a": 2.37,
+    "b": [
+      -2.58,
+      -1.04,
+      1.42,
+      1.74
+    ]
+  },
+  {
+    "item_id": "q_38",
+    "dimension": "Lifestyle",
+    "text": "This is a mocked question for Lifestyle (Question 38). Do you strongly agree?",
+    "a": 1.65,
+    "b": [
+      -0.59,
+      1.84,
+      1.99,
+      2.07
+    ]
+  },
+  {
+    "item_id": "q_39",
+    "dimension": "Entertainment",
+    "text": "This is a mocked question for Entertainment (Question 39). Do you strongly agree?",
+    "a": 1.41,
+    "b": [
+      -2.18,
+      2.01,
+      2.05,
+      2.52
+    ]
+  },
+  {
+    "item_id": "q_40",
+    "dimension": "BigFive_O",
+    "text": "This is a mocked question for BigFive_O (Question 40). Do you strongly agree?",
+    "a": 1.83,
+    "b": [
+      -0.75,
+      0.85,
+      1.1,
+      1.54
+    ]
+  },
+  {
+    "item_id": "q_41",
+    "dimension": "BigFive_C",
+    "text": "This is a mocked question for BigFive_C (Question 41). Do you strongly agree?",
+    "a": 2.35,
+    "b": [
+      -0.63,
+      0.92,
+      1.32,
+      1.46
+    ]
+  },
+  {
+    "item_id": "q_42",
+    "dimension": "BigFive_E",
+    "text": "This is a mocked question for BigFive_E (Question 42). Do you strongly agree?",
+    "a": 1.6,
+    "b": [
+      -2.98,
+      -1.9,
+      -1.56,
+      -0.53
+    ]
+  },
+  {
+    "item_id": "q_43",
+    "dimension": "BigFive_A",
+    "text": "This is a mocked question for BigFive_A (Question 43). Do you strongly agree?",
+    "a": 1.28,
+    "b": [
+      -1.38,
+      0.82,
+      2.63,
+      2.88
+    ]
+  },
+  {
+    "item_id": "q_44",
+    "dimension": "BigFive_N",
+    "text": "This is a mocked question for BigFive_N (Question 44). Do you strongly agree?",
+    "a": 1.82,
+    "b": [
+      -1.43,
+      1.09,
+      1.56,
+      2.62
+    ]
+  },
+  {
+    "item_id": "q_45",
+    "dimension": "Cognitive",
+    "text": "This is a mocked question for Cognitive (Question 45). Do you strongly agree?",
+    "a": 2.01,
+    "b": [
+      -0.84,
+      0.4,
+      1.0,
+      2.48
+    ]
+  },
+  {
+    "item_id": "q_46",
+    "dimension": "Lifestyle",
+    "text": "This is a mocked question for Lifestyle (Question 46). Do you strongly agree?",
+    "a": 1.35,
+    "b": [
+      -2.96,
+      -2.64,
+      -1.84,
+      -0.43
+    ]
+  },
+  {
+    "item_id": "q_47",
+    "dimension": "Entertainment",
+    "text": "This is a mocked question for Entertainment (Question 47). Do you strongly agree?",
+    "a": 2.26,
+    "b": [
+      -1.92,
+      -1.01,
+      -0.42,
+      0.41
+    ]
+  },
+  {
+    "item_id": "q_48",
+    "dimension": "BigFive_O",
+    "text": "This is a mocked question for BigFive_O (Question 48). Do you strongly agree?",
+    "a": 2.36,
+    "b": [
+      -2.07,
+      -0.65,
+      0.88,
+      2.49
+    ]
+  },
+  {
+    "item_id": "q_49",
+    "dimension": "BigFive_C",
+    "text": "This is a mocked question for BigFive_C (Question 49). Do you strongly agree?",
+    "a": 1.9,
+    "b": [
+      -2.09,
+      0.36,
+      1.67,
+      2.15
+    ]
+  },
+  {
+    "item_id": "q_50",
+    "dimension": "BigFive_E",
+    "text": "This is a mocked question for BigFive_E (Question 50). Do you strongly agree?",
+    "a": 2.43,
+    "b": [
+      -2.06,
+      2.06,
+      2.25,
+      2.98
+    ]
+  },
+  {
+    "item_id": "q_51",
+    "dimension": "BigFive_A",
+    "text": "This is a mocked question for BigFive_A (Question 51). Do you strongly agree?",
+    "a": 1.38,
+    "b": [
+      0.03,
+      1.09,
+      1.31,
+      2.49
+    ]
+  },
+  {
+    "item_id": "q_52",
+    "dimension": "BigFive_N",
+    "text": "This is a mocked question for BigFive_N (Question 52). Do you strongly agree?",
+    "a": 0.81,
+    "b": [
+      -1.37,
+      0.39,
+      1.01,
+      2.51
+    ]
+  },
+  {
+    "item_id": "q_53",
+    "dimension": "Cognitive",
+    "text": "This is a mocked question for Cognitive (Question 53). Do you strongly agree?",
+    "a": 2.25,
+    "b": [
+      -2.29,
+      -1.83,
+      -0.85,
+      1.4
+    ]
+  },
+  {
+    "item_id": "q_54",
+    "dimension": "Lifestyle",
+    "text": "This is a mocked question for Lifestyle (Question 54). Do you strongly agree?",
+    "a": 2.36,
+    "b": [
+      -2.44,
+      -0.71,
+      2.12,
+      2.84
+    ]
+  },
+  {
+    "item_id": "q_55",
+    "dimension": "Entertainment",
+    "text": "This is a mocked question for Entertainment (Question 55). Do you strongly agree?",
+    "a": 0.98,
+    "b": [
+      -2.86,
+      -2.2,
+      0.54,
+      2.97
+    ]
+  },
+  {
+    "item_id": "q_56",
+    "dimension": "BigFive_O",
+    "text": "This is a mocked question for BigFive_O (Question 56). Do you strongly agree?",
+    "a": 1.15,
+    "b": [
+      -1.19,
+      -0.89,
+      -0.33,
+      0.36
+    ]
+  },
+  {
+    "item_id": "q_57",
+    "dimension": "BigFive_C",
+    "text": "This is a mocked question for BigFive_C (Question 57). Do you strongly agree?",
+    "a": 1.45,
+    "b": [
+      -1.57,
+      -1.19,
+      -0.49,
+      2.87
+    ]
+  },
+  {
+    "item_id": "q_58",
+    "dimension": "BigFive_E",
+    "text": "This is a mocked question for BigFive_E (Question 58). Do you strongly agree?",
+    "a": 2.01,
+    "b": [
+      -1.59,
+      -0.53,
+      2.04,
+      2.46
+    ]
+  },
+  {
+    "item_id": "q_59",
+    "dimension": "BigFive_A",
+    "text": "This is a mocked question for BigFive_A (Question 59). Do you strongly agree?",
+    "a": 1.61,
+    "b": [
+      -2.34,
+      -0.47,
+      0.24,
+      2.75
+    ]
+  },
+  {
+    "item_id": "q_60",
+    "dimension": "BigFive_N",
+    "text": "This is a mocked question for BigFive_N (Question 60). Do you strongly agree?",
+    "a": 1.47,
+    "b": [
+      -2.5,
+      -1.14,
+      -0.11,
+      1.54
+    ]
+  },
+  {
+    "item_id": "q_61",
+    "dimension": "Cognitive",
+    "text": "This is a mocked question for Cognitive (Question 61). Do you strongly agree?",
+    "a": 1.8,
+    "b": [
+      -2.15,
+      -1.2,
+      -1.16,
+      -0.73
+    ]
+  },
+  {
+    "item_id": "q_62",
+    "dimension": "Lifestyle",
+    "text": "This is a mocked question for Lifestyle (Question 62). Do you strongly agree?",
+    "a": 1.44,
+    "b": [
+      -0.61,
+      -0.58,
+      0.76,
+      1.98
+    ]
+  },
+  {
+    "item_id": "q_63",
+    "dimension": "Entertainment",
+    "text": "This is a mocked question for Entertainment (Question 63). Do you strongly agree?",
+    "a": 1.85,
+    "b": [
+      -2.3,
+      -0.99,
+      -0.46,
+      2.73
+    ]
+  },
+  {
+    "item_id": "q_64",
+    "dimension": "BigFive_O",
+    "text": "This is a mocked question for BigFive_O (Question 64). Do you strongly agree?",
+    "a": 1.89,
+    "b": [
+      -1.71,
+      -1.31,
+      0.35,
+      2.96
+    ]
+  },
+  {
+    "item_id": "q_65",
+    "dimension": "BigFive_C",
+    "text": "This is a mocked question for BigFive_C (Question 65). Do you strongly agree?",
+    "a": 1.59,
+    "b": [
+      -1.77,
+      -1.42,
+      -0.39,
+      0.46
+    ]
+  },
+  {
+    "item_id": "q_66",
+    "dimension": "BigFive_E",
+    "text": "This is a mocked question for BigFive_E (Question 66). Do you strongly agree?",
+    "a": 2.04,
+    "b": [
+      -2.48,
+      -0.53,
+      0.09,
+      2.49
+    ]
+  },
+  {
+    "item_id": "q_67",
+    "dimension": "BigFive_A",
+    "text": "This is a mocked question for BigFive_A (Question 67). Do you strongly agree?",
+    "a": 1.26,
+    "b": [
+      -1.49,
+      1.0,
+      1.21,
+      2.38
+    ]
+  },
+  {
+    "item_id": "q_68",
+    "dimension": "BigFive_N",
+    "text": "This is a mocked question for BigFive_N (Question 68). Do you strongly agree?",
+    "a": 1.76,
+    "b": [
+      -0.71,
+      0.32,
+      1.43,
+      1.53
+    ]
+  },
+  {
+    "item_id": "q_69",
+    "dimension": "Cognitive",
+    "text": "This is a mocked question for Cognitive (Question 69). Do you strongly agree?",
+    "a": 1.57,
+    "b": [
+      -2.8,
+      -2.14,
+      1.98,
+      2.26
+    ]
+  },
+  {
+    "item_id": "q_70",
+    "dimension": "Lifestyle",
+    "text": "This is a mocked question for Lifestyle (Question 70). Do you strongly agree?",
+    "a": 1.16,
+    "b": [
+      -0.62,
+      0.05,
+      0.72,
+      1.11
+    ]
+  },
+  {
+    "item_id": "q_71",
+    "dimension": "Entertainment",
+    "text": "This is a mocked question for Entertainment (Question 71). Do you strongly agree?",
+    "a": 1.53,
+    "b": [
+      -2.02,
+      -0.59,
+      -0.08,
+      2.12
+    ]
+  },
+  {
+    "item_id": "q_72",
+    "dimension": "BigFive_O",
+    "text": "This is a mocked question for BigFive_O (Question 72). Do you strongly agree?",
+    "a": 1.8,
+    "b": [
+      -2.87,
+      0.3,
+      1.11,
+      2.33
+    ]
+  },
+  {
+    "item_id": "q_73",
+    "dimension": "BigFive_C",
+    "text": "This is a mocked question for BigFive_C (Question 73). Do you strongly agree?",
+    "a": 2.16,
+    "b": [
+      -2.2,
+      -0.89,
+      0.88,
+      2.63
+    ]
+  },
+  {
+    "item_id": "q_74",
+    "dimension": "BigFive_E",
+    "text": "This is a mocked question for BigFive_E (Question 74). Do you strongly agree?",
+    "a": 1.77,
+    "b": [
+      -2.31,
+      -1.72,
+      0.98,
+      2.02
+    ]
+  },
+  {
+    "item_id": "q_75",
+    "dimension": "BigFive_A",
+    "text": "This is a mocked question for BigFive_A (Question 75). Do you strongly agree?",
+    "a": 1.08,
+    "b": [
+      -2.24,
+      -1.42,
+      1.93,
+      2.2
+    ]
+  },
+  {
+    "item_id": "q_76",
+    "dimension": "BigFive_N",
+    "text": "This is a mocked question for BigFive_N (Question 76). Do you strongly agree?",
+    "a": 0.89,
+    "b": [
+      -2.77,
+      -0.75,
+      -0.1,
+      0.59
+    ]
+  },
+  {
+    "item_id": "q_77",
+    "dimension": "Cognitive",
+    "text": "This is a mocked question for Cognitive (Question 77). Do you strongly agree?",
+    "a": 1.07,
+    "b": [
+      -1.77,
+      -0.66,
+      -0.62,
+      2.26
+    ]
+  },
+  {
+    "item_id": "q_78",
+    "dimension": "Lifestyle",
+    "text": "This is a mocked question for Lifestyle (Question 78). Do you strongly agree?",
+    "a": 1.1,
+    "b": [
+      -2.55,
+      -1.82,
+      -0.64,
+      0.53
+    ]
+  },
+  {
+    "item_id": "q_79",
+    "dimension": "Entertainment",
+    "text": "This is a mocked question for Entertainment (Question 79). Do you strongly agree?",
+    "a": 1.39,
+    "b": [
+      -2.82,
+      -1.28,
+      -0.79,
+      1.88
+    ]
+  },
+  {
+    "item_id": "q_80",
+    "dimension": "BigFive_O",
+    "text": "This is a mocked question for BigFive_O (Question 80). Do you strongly agree?",
+    "a": 1.54,
+    "b": [
+      -2.9,
+      -2.5,
+      2.35,
+      2.54
+    ]
+  },
+  {
+    "item_id": "q_81",
+    "dimension": "BigFive_C",
+    "text": "This is a mocked question for BigFive_C (Question 81). Do you strongly agree?",
+    "a": 2.39,
+    "b": [
+      -2.91,
+      -1.87,
+      -0.13,
+      2.5
+    ]
+  },
+  {
+    "item_id": "q_82",
+    "dimension": "BigFive_E",
+    "text": "This is a mocked question for BigFive_E (Question 82). Do you strongly agree?",
+    "a": 1.07,
+    "b": [
+      -1.62,
+      -1.37,
+      -0.17,
+      2.17
+    ]
+  },
+  {
+    "item_id": "q_83",
+    "dimension": "BigFive_A",
+    "text": "This is a mocked question for BigFive_A (Question 83). Do you strongly agree?",
+    "a": 1.07,
+    "b": [
+      -1.35,
+      0.48,
+      1.08,
+      2.5
+    ]
+  },
+  {
+    "item_id": "q_84",
+    "dimension": "BigFive_N",
+    "text": "This is a mocked question for BigFive_N (Question 84). Do you strongly agree?",
+    "a": 1.51,
+    "b": [
+      -2.41,
+      -1.56,
+      0.88,
+      2.28
+    ]
+  },
+  {
+    "item_id": "q_85",
+    "dimension": "Cognitive",
+    "text": "This is a mocked question for Cognitive (Question 85). Do you strongly agree?",
+    "a": 1.3,
+    "b": [
+      -1.68,
+      -0.89,
+      0.21,
+      1.99
+    ]
+  },
+  {
+    "item_id": "q_86",
+    "dimension": "Lifestyle",
+    "text": "This is a mocked question for Lifestyle (Question 86). Do you strongly agree?",
+    "a": 2.37,
+    "b": [
+      -0.95,
+      -0.63,
+      -0.44,
+      2.91
+    ]
+  },
+  {
+    "item_id": "q_87",
+    "dimension": "Entertainment",
+    "text": "This is a mocked question for Entertainment (Question 87). Do you strongly agree?",
+    "a": 0.95,
+    "b": [
+      -1.62,
+      -0.01,
+      1.68,
+      2.95
+    ]
+  },
+  {
+    "item_id": "q_88",
+    "dimension": "BigFive_O",
+    "text": "This is a mocked question for BigFive_O (Question 88). Do you strongly agree?",
+    "a": 1.66,
+    "b": [
+      -2.69,
+      -2.55,
+      -2.2,
+      1.01
+    ]
+  },
+  {
+    "item_id": "q_89",
+    "dimension": "BigFive_C",
+    "text": "This is a mocked question for BigFive_C (Question 89). Do you strongly agree?",
+    "a": 2.17,
+    "b": [
+      -2.62,
+      -0.21,
+      0.54,
+      2.99
+    ]
+  },
+  {
+    "item_id": "q_90",
+    "dimension": "BigFive_E",
+    "text": "This is a mocked question for BigFive_E (Question 90). Do you strongly agree?",
+    "a": 1.1,
+    "b": [
+      -2.63,
+      -2.33,
+      -1.34,
+      -0.18
+    ]
+  },
+  {
+    "item_id": "q_91",
+    "dimension": "BigFive_A",
+    "text": "This is a mocked question for BigFive_A (Question 91). Do you strongly agree?",
+    "a": 1.21,
+    "b": [
+      -2.98,
+      -2.56,
+      -1.41,
+      1.68
+    ]
+  },
+  {
+    "item_id": "q_92",
+    "dimension": "BigFive_N",
+    "text": "This is a mocked question for BigFive_N (Question 92). Do you strongly agree?",
+    "a": 2.03,
+    "b": [
+      -2.45,
+      -0.14,
+      0.88,
+      2.88
+    ]
+  },
+  {
+    "item_id": "q_93",
+    "dimension": "Cognitive",
+    "text": "This is a mocked question for Cognitive (Question 93). Do you strongly agree?",
+    "a": 1.71,
+    "b": [
+      -0.92,
+      0.3,
+      0.31,
+      2.75
+    ]
+  },
+  {
+    "item_id": "q_94",
+    "dimension": "Lifestyle",
+    "text": "This is a mocked question for Lifestyle (Question 94). Do you strongly agree?",
+    "a": 2.39,
+    "b": [
+      -0.04,
+      0.33,
+      1.12,
+      2.26
+    ]
+  },
+  {
+    "item_id": "q_95",
+    "dimension": "Entertainment",
+    "text": "This is a mocked question for Entertainment (Question 95). Do you strongly agree?",
+    "a": 1.75,
+    "b": [
+      -2.15,
+      -1.28,
+      -0.41,
+      0.26
+    ]
+  },
+  {
+    "item_id": "q_96",
+    "dimension": "BigFive_O",
+    "text": "This is a mocked question for BigFive_O (Question 96). Do you strongly agree?",
+    "a": 1.25,
+    "b": [
+      -2.92,
+      -0.48,
+      -0.16,
+      2.63
+    ]
+  },
+  {
+    "item_id": "q_97",
+    "dimension": "BigFive_C",
+    "text": "This is a mocked question for BigFive_C (Question 97). Do you strongly agree?",
+    "a": 1.74,
+    "b": [
+      -0.31,
+      0.46,
+      0.59,
+      0.8
+    ]
+  },
+  {
+    "item_id": "q_98",
+    "dimension": "BigFive_E",
+    "text": "This is a mocked question for BigFive_E (Question 98). Do you strongly agree?",
+    "a": 2.03,
+    "b": [
+      -1.65,
+      0.89,
+      2.74,
+      2.85
+    ]
+  },
+  {
+    "item_id": "q_99",
+    "dimension": "BigFive_A",
+    "text": "This is a mocked question for BigFive_A (Question 99). Do you strongly agree?",
+    "a": 1.33,
+    "b": [
+      -0.7,
+      0.92,
+      0.96,
+      2.48
+    ]
+  },
+  {
+    "item_id": "q_100",
+    "dimension": "BigFive_N",
+    "text": "This is a mocked question for BigFive_N (Question 100). Do you strongly agree?",
+    "a": 1.13,
+    "b": [
+      -1.51,
+      0.66,
+      1.34,
+      2.39
+    ]
+  },
+  {
+    "item_id": "q_101",
+    "dimension": "Cognitive",
+    "text": "This is a mocked question for Cognitive (Question 101). Do you strongly agree?",
+    "a": 1.5,
+    "b": [
+      -0.0,
+      0.01,
+      1.18,
+      1.29
+    ]
+  },
+  {
+    "item_id": "q_102",
+    "dimension": "Lifestyle",
+    "text": "This is a mocked question for Lifestyle (Question 102). Do you strongly agree?",
+    "a": 1.83,
+    "b": [
+      -2.88,
+      -1.34,
+      -0.99,
+      0.1
+    ]
+  },
+  {
+    "item_id": "q_103",
+    "dimension": "Entertainment",
+    "text": "This is a mocked question for Entertainment (Question 103). Do you strongly agree?",
+    "a": 2.48,
+    "b": [
+      -2.16,
+      -1.12,
+      -0.07,
+      1.91
+    ]
+  },
+  {
+    "item_id": "q_104",
+    "dimension": "BigFive_O",
+    "text": "This is a mocked question for BigFive_O (Question 104). Do you strongly agree?",
+    "a": 1.79,
+    "b": [
+      -2.53,
+      -1.0,
+      0.93,
+      1.7
+    ]
+  },
+  {
+    "item_id": "q_105",
+    "dimension": "BigFive_C",
+    "text": "This is a mocked question for BigFive_C (Question 105). Do you strongly agree?",
+    "a": 2.17,
+    "b": [
+      -2.59,
+      -2.26,
+      -1.11,
+      0.46
+    ]
+  },
+  {
+    "item_id": "q_106",
+    "dimension": "BigFive_E",
+    "text": "This is a mocked question for BigFive_E (Question 106). Do you strongly agree?",
+    "a": 1.04,
+    "b": [
+      -1.85,
+      -1.75,
+      -1.3,
+      1.95
+    ]
+  },
+  {
+    "item_id": "q_107",
+    "dimension": "BigFive_A",
+    "text": "This is a mocked question for BigFive_A (Question 107). Do you strongly agree?",
+    "a": 1.87,
+    "b": [
+      -2.22,
+      -2.05,
+      -1.94,
+      1.64
+    ]
+  },
+  {
+    "item_id": "q_108",
+    "dimension": "BigFive_N",
+    "text": "This is a mocked question for BigFive_N (Question 108). Do you strongly agree?",
+    "a": 1.77,
+    "b": [
+      -1.71,
+      -0.51,
+      -0.26,
+      2.17
+    ]
+  },
+  {
+    "item_id": "q_109",
+    "dimension": "Cognitive",
+    "text": "This is a mocked question for Cognitive (Question 109). Do you strongly agree?",
+    "a": 1.06,
+    "b": [
+      -2.73,
+      -1.72,
+      -1.37,
+      1.67
+    ]
+  },
+  {
+    "item_id": "q_110",
+    "dimension": "Lifestyle",
+    "text": "This is a mocked question for Lifestyle (Question 110). Do you strongly agree?",
+    "a": 1.27,
+    "b": [
+      -2.96,
+      -0.86,
+      1.0,
+      1.59
+    ]
+  },
+  {
+    "item_id": "q_111",
+    "dimension": "Entertainment",
+    "text": "This is a mocked question for Entertainment (Question 111). Do you strongly agree?",
+    "a": 1.79,
+    "b": [
+      -0.8,
+      -0.58,
+      0.04,
+      2.1
+    ]
+  },
+  {
+    "item_id": "q_112",
+    "dimension": "BigFive_O",
+    "text": "This is a mocked question for BigFive_O (Question 112). Do you strongly agree?",
+    "a": 2.28,
+    "b": [
+      -2.48,
+      -2.05,
+      -0.92,
+      0.21
+    ]
+  },
+  {
+    "item_id": "q_113",
+    "dimension": "BigFive_C",
+    "text": "This is a mocked question for BigFive_C (Question 113). Do you strongly agree?",
+    "a": 1.34,
+    "b": [
+      -2.21,
+      -1.05,
+      0.51,
+      1.65
+    ]
+  },
+  {
+    "item_id": "q_114",
+    "dimension": "BigFive_E",
+    "text": "This is a mocked question for BigFive_E (Question 114). Do you strongly agree?",
+    "a": 1.25,
+    "b": [
+      -2.63,
+      -0.67,
+      -0.54,
+      2.7
+    ]
+  },
+  {
+    "item_id": "q_115",
+    "dimension": "BigFive_A",
+    "text": "This is a mocked question for BigFive_A (Question 115). Do you strongly agree?",
+    "a": 2.26,
+    "b": [
+      0.33,
+      0.76,
+      1.09,
+      1.67
+    ]
+  },
+  {
+    "item_id": "q_116",
+    "dimension": "BigFive_N",
+    "text": "This is a mocked question for BigFive_N (Question 116). Do you strongly agree?",
+    "a": 2.31,
+    "b": [
+      -1.36,
+      -0.06,
+      0.64,
+      1.68
+    ]
+  },
+  {
+    "item_id": "q_117",
+    "dimension": "Cognitive",
+    "text": "This is a mocked question for Cognitive (Question 117). Do you strongly agree?",
+    "a": 2.36,
+    "b": [
+      -2.99,
+      1.77,
+      2.67,
+      2.94
+    ]
+  },
+  {
+    "item_id": "q_118",
+    "dimension": "Lifestyle",
+    "text": "This is a mocked question for Lifestyle (Question 118). Do you strongly agree?",
+    "a": 1.59,
+    "b": [
+      -1.52,
+      -1.41,
+      -0.58,
+      1.32
+    ]
+  },
+  {
+    "item_id": "q_119",
+    "dimension": "Entertainment",
+    "text": "This is a mocked question for Entertainment (Question 119). Do you strongly agree?",
+    "a": 1.49,
+    "b": [
+      -2.94,
+      -2.49,
+      -2.17,
+      1.44
+    ]
+  },
+  {
+    "item_id": "q_120",
+    "dimension": "BigFive_O",
+    "text": "This is a mocked question for BigFive_O (Question 120). Do you strongly agree?",
+    "a": 2.02,
+    "b": [
+      -1.75,
+      -0.31,
+      1.78,
+      2.63
+    ]
+  },
+  {
+    "item_id": "q_121",
+    "dimension": "BigFive_C",
+    "text": "This is a mocked question for BigFive_C (Question 121). Do you strongly agree?",
+    "a": 1.26,
+    "b": [
+      -0.91,
+      -0.56,
+      0.37,
+      1.75
+    ]
+  },
+  {
+    "item_id": "q_122",
+    "dimension": "BigFive_E",
+    "text": "This is a mocked question for BigFive_E (Question 122). Do you strongly agree?",
+    "a": 2.24,
+    "b": [
+      -3.0,
+      -2.52,
+      -2.37,
+      -1.67
+    ]
+  },
+  {
+    "item_id": "q_123",
+    "dimension": "BigFive_A",
+    "text": "This is a mocked question for BigFive_A (Question 123). Do you strongly agree?",
+    "a": 1.22,
+    "b": [
+      -1.62,
+      1.55,
+      2.64,
+      2.74
+    ]
+  },
+  {
+    "item_id": "q_124",
+    "dimension": "BigFive_N",
+    "text": "This is a mocked question for BigFive_N (Question 124). Do you strongly agree?",
+    "a": 1.17,
+    "b": [
+      -0.24,
+      0.71,
+      1.35,
+      1.38
+    ]
+  },
+  {
+    "item_id": "q_125",
+    "dimension": "Cognitive",
+    "text": "This is a mocked question for Cognitive (Question 125). Do you strongly agree?",
+    "a": 1.84,
+    "b": [
+      0.45,
+      0.93,
+      1.21,
+      1.78
+    ]
+  },
+  {
+    "item_id": "q_126",
+    "dimension": "Lifestyle",
+    "text": "This is a mocked question for Lifestyle (Question 126). Do you strongly agree?",
+    "a": 2.28,
+    "b": [
+      -1.03,
+      -0.89,
+      -0.45,
+      0.57
+    ]
+  },
+  {
+    "item_id": "q_127",
+    "dimension": "Entertainment",
+    "text": "This is a mocked question for Entertainment (Question 127). Do you strongly agree?",
+    "a": 1.05,
+    "b": [
+      -2.52,
+      0.06,
+      1.85,
+      2.26
+    ]
+  },
+  {
+    "item_id": "q_128",
+    "dimension": "BigFive_O",
+    "text": "This is a mocked question for BigFive_O (Question 128). Do you strongly agree?",
+    "a": 1.37,
+    "b": [
+      -2.5,
+      -1.39,
+      -0.11,
+      0.77
+    ]
+  },
+  {
+    "item_id": "q_129",
+    "dimension": "BigFive_C",
+    "text": "This is a mocked question for BigFive_C (Question 129). Do you strongly agree?",
+    "a": 1.57,
+    "b": [
+      -1.17,
+      -0.38,
+      -0.34,
+      1.69
+    ]
+  },
+  {
+    "item_id": "q_130",
+    "dimension": "BigFive_E",
+    "text": "This is a mocked question for BigFive_E (Question 130). Do you strongly agree?",
+    "a": 2.03,
+    "b": [
+      -2.61,
+      -2.5,
+      1.4,
+      1.73
+    ]
+  },
+  {
+    "item_id": "q_131",
+    "dimension": "BigFive_A",
+    "text": "This is a mocked question for BigFive_A (Question 131). Do you strongly agree?",
+    "a": 0.92,
+    "b": [
+      -1.29,
+      0.66,
+      0.92,
+      2.3
+    ]
+  },
+  {
+    "item_id": "q_132",
+    "dimension": "BigFive_N",
+    "text": "This is a mocked question for BigFive_N (Question 132). Do you strongly agree?",
+    "a": 1.61,
+    "b": [
+      -1.75,
+      0.66,
+      2.09,
+      2.2
+    ]
+  },
+  {
+    "item_id": "q_133",
+    "dimension": "Cognitive",
+    "text": "This is a mocked question for Cognitive (Question 133). Do you strongly agree?",
+    "a": 1.17,
+    "b": [
+      -2.29,
+      -1.41,
+      -0.02,
+      2.61
+    ]
+  },
+  {
+    "item_id": "q_134",
+    "dimension": "Lifestyle",
+    "text": "This is a mocked question for Lifestyle (Question 134). Do you strongly agree?",
+    "a": 1.32,
+    "b": [
+      -1.07,
+      -0.13,
+      0.19,
+      0.56
+    ]
+  },
+  {
+    "item_id": "q_135",
+    "dimension": "Entertainment",
+    "text": "This is a mocked question for Entertainment (Question 135). Do you strongly agree?",
+    "a": 1.67,
+    "b": [
+      -2.53,
+      -1.62,
+      0.96,
+      2.25
+    ]
+  },
+  {
+    "item_id": "q_136",
+    "dimension": "BigFive_O",
+    "text": "This is a mocked question for BigFive_O (Question 136). Do you strongly agree?",
+    "a": 2.15,
+    "b": [
+      -2.99,
+      -2.31,
+      0.2,
+      0.66
+    ]
+  },
+  {
+    "item_id": "q_137",
+    "dimension": "BigFive_C",
+    "text": "This is a mocked question for BigFive_C (Question 137). Do you strongly agree?",
+    "a": 1.86,
+    "b": [
+      -2.13,
+      -1.08,
+      0.32,
+      2.31
+    ]
+  },
+  {
+    "item_id": "q_138",
+    "dimension": "BigFive_E",
+    "text": "This is a mocked question for BigFive_E (Question 138). Do you strongly agree?",
+    "a": 1.77,
+    "b": [
+      -2.03,
+      -0.54,
+      1.4,
+      2.07
+    ]
+  },
+  {
+    "item_id": "q_139",
+    "dimension": "BigFive_A",
+    "text": "This is a mocked question for BigFive_A (Question 139). Do you strongly agree?",
+    "a": 0.89,
+    "b": [
+      -1.74,
+      -1.62,
+      2.07,
+      2.95
+    ]
+  },
+  {
+    "item_id": "q_140",
+    "dimension": "BigFive_N",
+    "text": "This is a mocked question for BigFive_N (Question 140). Do you strongly agree?",
+    "a": 2.45,
+    "b": [
+      -1.65,
+      -0.52,
+      0.53,
+      2.17
+    ]
+  },
+  {
+    "item_id": "q_141",
+    "dimension": "Cognitive",
+    "text": "This is a mocked question for Cognitive (Question 141). Do you strongly agree?",
+    "a": 0.83,
+    "b": [
+      -0.65,
+      1.78,
+      2.19,
+      2.97
+    ]
+  },
+  {
+    "item_id": "q_142",
+    "dimension": "Lifestyle",
+    "text": "This is a mocked question for Lifestyle (Question 142). Do you strongly agree?",
+    "a": 2.01,
+    "b": [
+      0.89,
+      1.65,
+      2.46,
+      2.94
+    ]
+  },
+  {
+    "item_id": "q_143",
+    "dimension": "Entertainment",
+    "text": "This is a mocked question for Entertainment (Question 143). Do you strongly agree?",
+    "a": 2.39,
+    "b": [
+      -1.02,
+      0.97,
+      1.97,
+      2.45
+    ]
+  },
+  {
+    "item_id": "q_144",
+    "dimension": "BigFive_O",
+    "text": "This is a mocked question for BigFive_O (Question 144). Do you strongly agree?",
+    "a": 1.9,
+    "b": [
+      -2.07,
+      -0.18,
+      1.4,
+      1.97
+    ]
+  },
+  {
+    "item_id": "q_145",
+    "dimension": "BigFive_C",
+    "text": "This is a mocked question for BigFive_C (Question 145). Do you strongly agree?",
+    "a": 1.14,
+    "b": [
+      -1.83,
+      -1.55,
+      -0.44,
+      1.53
+    ]
+  },
+  {
+    "item_id": "q_146",
+    "dimension": "BigFive_E",
+    "text": "This is a mocked question for BigFive_E (Question 146). Do you strongly agree?",
+    "a": 1.46,
+    "b": [
+      -2.78,
+      -1.67,
+      0.01,
+      0.6
+    ]
+  },
+  {
+    "item_id": "q_147",
+    "dimension": "BigFive_A",
+    "text": "This is a mocked question for BigFive_A (Question 147). Do you strongly agree?",
+    "a": 1.32,
+    "b": [
+      -2.69,
+      -0.49,
+      0.07,
+      2.22
+    ]
+  },
+  {
+    "item_id": "q_148",
+    "dimension": "BigFive_N",
+    "text": "This is a mocked question for BigFive_N (Question 148). Do you strongly agree?",
+    "a": 2.36,
+    "b": [
+      -2.99,
+      -2.68,
+      -2.23,
+      1.74
+    ]
+  },
+  {
+    "item_id": "q_149",
+    "dimension": "Cognitive",
+    "text": "This is a mocked question for Cognitive (Question 149). Do you strongly agree?",
+    "a": 1.75,
+    "b": [
+      -2.67,
+      -2.49,
+      -0.81,
+      0.21
+    ]
+  },
+  {
+    "item_id": "q_150",
+    "dimension": "Lifestyle",
+    "text": "This is a mocked question for Lifestyle (Question 150). Do you strongly agree?",
+    "a": 2.46,
+    "b": [
+      -1.86,
+      -1.45,
+      -0.25,
+      0.76
+    ]
+  },
+  {
+    "item_id": "q_151",
+    "dimension": "Entertainment",
+    "text": "This is a mocked question for Entertainment (Question 151). Do you strongly agree?",
+    "a": 2.45,
+    "b": [
+      0.67,
+      1.37,
+      1.59,
+      2.68
+    ]
+  },
+  {
+    "item_id": "q_152",
+    "dimension": "BigFive_O",
+    "text": "This is a mocked question for BigFive_O (Question 152). Do you strongly agree?",
+    "a": 0.88,
+    "b": [
+      -2.7,
+      0.03,
+      1.42,
+      2.6
+    ]
+  },
+  {
+    "item_id": "q_153",
+    "dimension": "BigFive_C",
+    "text": "This is a mocked question for BigFive_C (Question 153). Do you strongly agree?",
+    "a": 2.47,
+    "b": [
+      -2.31,
+      -1.16,
+      1.06,
+      1.79
+    ]
+  },
+  {
+    "item_id": "q_154",
+    "dimension": "BigFive_E",
+    "text": "This is a mocked question for BigFive_E (Question 154). Do you strongly agree?",
+    "a": 1.93,
+    "b": [
+      -2.96,
+      2.19,
+      2.26,
+      2.69
+    ]
+  },
+  {
+    "item_id": "q_155",
+    "dimension": "BigFive_A",
+    "text": "This is a mocked question for BigFive_A (Question 155). Do you strongly agree?",
+    "a": 1.85,
+    "b": [
+      -1.57,
+      -0.67,
+      -0.05,
+      1.22
+    ]
+  },
+  {
+    "item_id": "q_156",
+    "dimension": "BigFive_N",
+    "text": "This is a mocked question for BigFive_N (Question 156). Do you strongly agree?",
+    "a": 1.32,
+    "b": [
+      -0.35,
+      -0.02,
+      1.77,
+      2.01
+    ]
+  },
+  {
+    "item_id": "q_157",
+    "dimension": "Cognitive",
+    "text": "This is a mocked question for Cognitive (Question 157). Do you strongly agree?",
+    "a": 1.07,
+    "b": [
+      -1.32,
+      -0.75,
+      1.53,
+      2.7
+    ]
+  },
+  {
+    "item_id": "q_158",
+    "dimension": "Lifestyle",
+    "text": "This is a mocked question for Lifestyle (Question 158). Do you strongly agree?",
+    "a": 0.98,
+    "b": [
+      -0.67,
+      -0.67,
+      1.46,
+      2.28
+    ]
+  },
+  {
+    "item_id": "q_159",
+    "dimension": "Entertainment",
+    "text": "This is a mocked question for Entertainment (Question 159). Do you strongly agree?",
+    "a": 1.61,
+    "b": [
+      -0.62,
+      0.04,
+      0.65,
+      0.71
+    ]
+  },
+  {
+    "item_id": "q_160",
+    "dimension": "BigFive_O",
+    "text": "This is a mocked question for BigFive_O (Question 160). Do you strongly agree?",
+    "a": 1.72,
+    "b": [
+      -0.65,
+      -0.52,
+      0.86,
+      1.51
+    ]
+  },
+  {
+    "item_id": "q_161",
+    "dimension": "BigFive_C",
+    "text": "This is a mocked question for BigFive_C (Question 161). Do you strongly agree?",
+    "a": 1.23,
+    "b": [
+      -2.28,
+      1.39,
+      1.53,
+      2.84
+    ]
+  },
+  {
+    "item_id": "q_162",
+    "dimension": "BigFive_E",
+    "text": "This is a mocked question for BigFive_E (Question 162). Do you strongly agree?",
+    "a": 2.08,
+    "b": [
+      -0.79,
+      0.52,
+      1.41,
+      2.71
+    ]
+  },
+  {
+    "item_id": "q_163",
+    "dimension": "BigFive_A",
+    "text": "This is a mocked question for BigFive_A (Question 163). Do you strongly agree?",
+    "a": 1.08,
+    "b": [
+      -2.06,
+      -1.76,
+      -0.42,
+      -0.29
+    ]
+  },
+  {
+    "item_id": "q_164",
+    "dimension": "BigFive_N",
+    "text": "This is a mocked question for BigFive_N (Question 164). Do you strongly agree?",
+    "a": 1.84,
+    "b": [
+      -1.18,
+      -0.94,
+      0.38,
+      1.02
+    ]
+  },
+  {
+    "item_id": "q_165",
+    "dimension": "Cognitive",
+    "text": "This is a mocked question for Cognitive (Question 165). Do you strongly agree?",
+    "a": 2.4,
+    "b": [
+      -1.62,
+      0.43,
+      0.52,
+      0.74
+    ]
+  },
+  {
+    "item_id": "q_166",
+    "dimension": "Lifestyle",
+    "text": "This is a mocked question for Lifestyle (Question 166). Do you strongly agree?",
+    "a": 1.81,
+    "b": [
+      -1.68,
+      -1.59,
+      0.11,
+      1.04
+    ]
+  },
+  {
+    "item_id": "q_167",
+    "dimension": "Entertainment",
+    "text": "This is a mocked question for Entertainment (Question 167). Do you strongly agree?",
+    "a": 2.0,
+    "b": [
+      -2.11,
+      -0.86,
+      1.0,
+      1.51
+    ]
+  },
+  {
+    "item_id": "q_168",
+    "dimension": "BigFive_O",
+    "text": "This is a mocked question for BigFive_O (Question 168). Do you strongly agree?",
+    "a": 2.14,
+    "b": [
+      -1.19,
+      -0.97,
+      -0.89,
+      1.45
+    ]
+  },
+  {
+    "item_id": "q_169",
+    "dimension": "BigFive_C",
+    "text": "This is a mocked question for BigFive_C (Question 169). Do you strongly agree?",
+    "a": 1.39,
+    "b": [
+      -0.84,
+      -0.07,
+      0.28,
+      1.38
+    ]
+  },
+  {
+    "item_id": "q_170",
+    "dimension": "BigFive_E",
+    "text": "This is a mocked question for BigFive_E (Question 170). Do you strongly agree?",
+    "a": 1.62,
+    "b": [
+      -2.2,
+      -1.48,
+      -0.5,
+      1.31
+    ]
+  },
+  {
+    "item_id": "q_171",
+    "dimension": "BigFive_A",
+    "text": "This is a mocked question for BigFive_A (Question 171). Do you strongly agree?",
+    "a": 1.54,
+    "b": [
+      -2.45,
+      -0.96,
+      -0.77,
+      -0.4
+    ]
+  },
+  {
+    "item_id": "q_172",
+    "dimension": "BigFive_N",
+    "text": "This is a mocked question for BigFive_N (Question 172). Do you strongly agree?",
+    "a": 0.82,
+    "b": [
+      -2.46,
+      -2.09,
+      1.0,
+      2.77
+    ]
+  },
+  {
+    "item_id": "q_173",
+    "dimension": "Cognitive",
+    "text": "This is a mocked question for Cognitive (Question 173). Do you strongly agree?",
+    "a": 1.38,
+    "b": [
+      -2.96,
+      -1.16,
+      -0.84,
+      1.17
+    ]
+  },
+  {
+    "item_id": "q_174",
+    "dimension": "Lifestyle",
+    "text": "This is a mocked question for Lifestyle (Question 174). Do you strongly agree?",
+    "a": 1.08,
+    "b": [
+      -2.8,
+      -1.4,
+      -1.04,
+      0.23
+    ]
+  },
+  {
+    "item_id": "q_175",
+    "dimension": "Entertainment",
+    "text": "This is a mocked question for Entertainment (Question 175). Do you strongly agree?",
+    "a": 2.1,
+    "b": [
+      -2.63,
+      -0.86,
+      1.39,
+      2.0
+    ]
+  },
+  {
+    "item_id": "q_176",
+    "dimension": "BigFive_O",
+    "text": "This is a mocked question for BigFive_O (Question 176). Do you strongly agree?",
+    "a": 1.64,
+    "b": [
+      -1.28,
+      -0.91,
+      1.0,
+      2.93
+    ]
+  },
+  {
+    "item_id": "q_177",
+    "dimension": "BigFive_C",
+    "text": "This is a mocked question for BigFive_C (Question 177). Do you strongly agree?",
+    "a": 2.43,
+    "b": [
+      -2.49,
+      -0.27,
+      0.28,
+      1.22
+    ]
+  },
+  {
+    "item_id": "q_178",
+    "dimension": "BigFive_E",
+    "text": "This is a mocked question for BigFive_E (Question 178). Do you strongly agree?",
+    "a": 2.37,
+    "b": [
+      -2.79,
+      -2.05,
+      -1.76,
+      -1.39
+    ]
+  },
+  {
+    "item_id": "q_179",
+    "dimension": "BigFive_A",
+    "text": "This is a mocked question for BigFive_A (Question 179). Do you strongly agree?",
+    "a": 0.89,
+    "b": [
+      -2.13,
+      -1.56,
+      -1.47,
+      1.56
+    ]
+  },
+  {
+    "item_id": "q_180",
+    "dimension": "BigFive_N",
+    "text": "This is a mocked question for BigFive_N (Question 180). Do you strongly agree?",
+    "a": 1.09,
+    "b": [
+      -2.19,
+      -0.4,
+      0.4,
+      1.83
+    ]
+  },
+  {
+    "item_id": "q_181",
+    "dimension": "Cognitive",
+    "text": "This is a mocked question for Cognitive (Question 181). Do you strongly agree?",
+    "a": 1.19,
+    "b": [
+      -0.77,
+      -0.49,
+      -0.1,
+      2.91
+    ]
+  },
+  {
+    "item_id": "q_182",
+    "dimension": "Lifestyle",
+    "text": "This is a mocked question for Lifestyle (Question 182). Do you strongly agree?",
+    "a": 1.39,
+    "b": [
+      -0.03,
+      0.3,
+      1.77,
+      2.47
+    ]
+  },
+  {
+    "item_id": "q_183",
+    "dimension": "Entertainment",
+    "text": "This is a mocked question for Entertainment (Question 183). Do you strongly agree?",
+    "a": 1.42,
+    "b": [
+      -2.64,
+      -1.73,
+      -1.09,
+      -0.14
+    ]
+  },
+  {
+    "item_id": "q_184",
+    "dimension": "BigFive_O",
+    "text": "This is a mocked question for BigFive_O (Question 184). Do you strongly agree?",
+    "a": 2.27,
+    "b": [
+      -2.55,
+      -2.47,
+      -0.73,
+      -0.27
+    ]
+  },
+  {
+    "item_id": "q_185",
+    "dimension": "BigFive_C",
+    "text": "This is a mocked question for BigFive_C (Question 185). Do you strongly agree?",
+    "a": 1.58,
+    "b": [
+      0.38,
+      1.17,
+      2.17,
+      2.55
+    ]
+  },
+  {
+    "item_id": "q_186",
+    "dimension": "BigFive_E",
+    "text": "This is a mocked question for BigFive_E (Question 186). Do you strongly agree?",
+    "a": 2.28,
+    "b": [
+      -2.57,
+      -0.44,
+      -0.24,
+      0.93
+    ]
+  },
+  {
+    "item_id": "q_187",
+    "dimension": "BigFive_A",
+    "text": "This is a mocked question for BigFive_A (Question 187). Do you strongly agree?",
+    "a": 1.5,
+    "b": [
+      -2.44,
+      -2.34,
+      -2.09,
+      0.29
+    ]
+  },
+  {
+    "item_id": "q_188",
+    "dimension": "BigFive_N",
+    "text": "This is a mocked question for BigFive_N (Question 188). Do you strongly agree?",
+    "a": 1.82,
+    "b": [
+      -1.72,
+      0.25,
+      2.43,
+      2.52
+    ]
+  },
+  {
+    "item_id": "q_189",
+    "dimension": "Cognitive",
+    "text": "This is a mocked question for Cognitive (Question 189). Do you strongly agree?",
+    "a": 1.86,
+    "b": [
+      -2.87,
+      0.49,
+      1.29,
+      1.39
+    ]
+  },
+  {
+    "item_id": "q_190",
+    "dimension": "Lifestyle",
+    "text": "This is a mocked question for Lifestyle (Question 190). Do you strongly agree?",
+    "a": 1.27,
+    "b": [
+      -2.64,
+      -2.43,
+      -0.66,
+      1.42
+    ]
+  },
+  {
+    "item_id": "q_191",
+    "dimension": "Entertainment",
+    "text": "This is a mocked question for Entertainment (Question 191). Do you strongly agree?",
+    "a": 1.57,
+    "b": [
+      -1.88,
+      -0.09,
+      1.01,
+      2.02
+    ]
+  },
+  {
+    "item_id": "q_192",
+    "dimension": "BigFive_O",
+    "text": "This is a mocked question for BigFive_O (Question 192). Do you strongly agree?",
+    "a": 1.83,
+    "b": [
+      -2.35,
+      -0.92,
+      -0.73,
+      0.61
+    ]
+  },
+  {
+    "item_id": "q_193",
+    "dimension": "BigFive_C",
+    "text": "This is a mocked question for BigFive_C (Question 193). Do you strongly agree?",
+    "a": 2.28,
+    "b": [
+      0.55,
+      1.09,
+      1.3,
+      2.83
+    ]
+  },
+  {
+    "item_id": "q_194",
+    "dimension": "BigFive_E",
+    "text": "This is a mocked question for BigFive_E (Question 194). Do you strongly agree?",
+    "a": 2.36,
+    "b": [
+      -2.54,
+      1.04,
+      1.84,
+      2.33
+    ]
+  },
+  {
+    "item_id": "q_195",
+    "dimension": "BigFive_A",
+    "text": "This is a mocked question for BigFive_A (Question 195). Do you strongly agree?",
+    "a": 1.14,
+    "b": [
+      -2.96,
+      -2.06,
+      -0.17,
+      1.79
+    ]
+  },
+  {
+    "item_id": "q_196",
+    "dimension": "BigFive_N",
+    "text": "This is a mocked question for BigFive_N (Question 196). Do you strongly agree?",
+    "a": 1.79,
+    "b": [
+      -2.29,
+      -0.58,
+      2.11,
+      2.93
+    ]
+  },
+  {
+    "item_id": "q_197",
+    "dimension": "Cognitive",
+    "text": "This is a mocked question for Cognitive (Question 197). Do you strongly agree?",
+    "a": 0.92,
+    "b": [
+      1.0,
+      1.37,
+      1.42,
+      1.76
+    ]
+  },
+  {
+    "item_id": "q_198",
+    "dimension": "Lifestyle",
+    "text": "This is a mocked question for Lifestyle (Question 198). Do you strongly agree?",
+    "a": 1.11,
+    "b": [
+      -1.84,
+      -1.24,
+      -0.99,
+      1.07
+    ]
+  },
+  {
+    "item_id": "q_199",
+    "dimension": "Entertainment",
+    "text": "This is a mocked question for Entertainment (Question 199). Do you strongly agree?",
+    "a": 1.47,
+    "b": [
+      -2.73,
+      -1.88,
+      -1.84,
+      -0.52
+    ]
+  },
+  {
+    "item_id": "q_200",
+    "dimension": "BigFive_O",
+    "text": "This is a mocked question for BigFive_O (Question 200). Do you strongly agree?",
+    "a": 2.23,
+    "b": [
+      -2.64,
+      -0.94,
+      0.62,
+      1.89
+    ]
+  },
+  {
+    "item_id": "q_201",
+    "dimension": "BigFive_C",
+    "text": "This is a mocked question for BigFive_C (Question 201). Do you strongly agree?",
+    "a": 1.25,
+    "b": [
+      -2.06,
+      -0.96,
+      -0.77,
+      -0.41
+    ]
+  },
+  {
+    "item_id": "q_202",
+    "dimension": "BigFive_E",
+    "text": "This is a mocked question for BigFive_E (Question 202). Do you strongly agree?",
+    "a": 1.83,
+    "b": [
+      -2.92,
+      -1.46,
+      0.52,
+      0.67
+    ]
+  },
+  {
+    "item_id": "q_203",
+    "dimension": "BigFive_A",
+    "text": "This is a mocked question for BigFive_A (Question 203). Do you strongly agree?",
+    "a": 1.91,
+    "b": [
+      -1.89,
+      -1.27,
+      -0.73,
+      0.9
+    ]
+  },
+  {
+    "item_id": "q_204",
+    "dimension": "BigFive_N",
+    "text": "This is a mocked question for BigFive_N (Question 204). Do you strongly agree?",
+    "a": 1.33,
+    "b": [
+      -1.4,
+      -0.14,
+      2.11,
+      2.57
+    ]
+  },
+  {
+    "item_id": "q_205",
+    "dimension": "Cognitive",
+    "text": "This is a mocked question for Cognitive (Question 205). Do you strongly agree?",
+    "a": 1.79,
+    "b": [
+      -2.65,
+      1.57,
+      1.59,
+      2.11
+    ]
+  },
+  {
+    "item_id": "q_206",
+    "dimension": "Lifestyle",
+    "text": "This is a mocked question for Lifestyle (Question 206). Do you strongly agree?",
+    "a": 1.4,
+    "b": [
+      -0.95,
+      -0.17,
+      1.97,
+      2.13
+    ]
+  },
+  {
+    "item_id": "q_207",
+    "dimension": "Entertainment",
+    "text": "This is a mocked question for Entertainment (Question 207). Do you strongly agree?",
+    "a": 1.07,
+    "b": [
+      -2.95,
+      -2.06,
+      -1.16,
+      0.06
+    ]
+  },
+  {
+    "item_id": "q_208",
+    "dimension": "BigFive_O",
+    "text": "This is a mocked question for BigFive_O (Question 208). Do you strongly agree?",
+    "a": 1.71,
+    "b": [
+      -0.63,
+      -0.41,
+      -0.19,
+      0.42
+    ]
+  },
+  {
+    "item_id": "q_209",
+    "dimension": "BigFive_C",
+    "text": "This is a mocked question for BigFive_C (Question 209). Do you strongly agree?",
+    "a": 1.34,
+    "b": [
+      -0.94,
+      0.92,
+      1.31,
+      2.81
+    ]
+  },
+  {
+    "item_id": "q_210",
+    "dimension": "BigFive_E",
+    "text": "This is a mocked question for BigFive_E (Question 210). Do you strongly agree?",
+    "a": 2.25,
+    "b": [
+      -0.24,
+      0.34,
+      1.86,
+      2.75
+    ]
+  },
+  {
+    "item_id": "q_211",
+    "dimension": "BigFive_A",
+    "text": "This is a mocked question for BigFive_A (Question 211). Do you strongly agree?",
+    "a": 2.0,
+    "b": [
+      -2.53,
+      -0.62,
+      0.01,
+      2.84
+    ]
+  },
+  {
+    "item_id": "q_212",
+    "dimension": "BigFive_N",
+    "text": "This is a mocked question for BigFive_N (Question 212). Do you strongly agree?",
+    "a": 1.08,
+    "b": [
+      -2.45,
+      -1.08,
+      0.69,
+      2.2
+    ]
+  },
+  {
+    "item_id": "q_213",
+    "dimension": "Cognitive",
+    "text": "This is a mocked question for Cognitive (Question 213). Do you strongly agree?",
+    "a": 1.51,
+    "b": [
+      -0.64,
+      -0.57,
+      -0.57,
+      1.94
+    ]
+  },
+  {
+    "item_id": "q_214",
+    "dimension": "Lifestyle",
+    "text": "This is a mocked question for Lifestyle (Question 214). Do you strongly agree?",
+    "a": 2.04,
+    "b": [
+      -2.41,
+      -1.84,
+      0.39,
+      1.3
+    ]
+  },
+  {
+    "item_id": "q_215",
+    "dimension": "Entertainment",
+    "text": "This is a mocked question for Entertainment (Question 215). Do you strongly agree?",
+    "a": 2.06,
+    "b": [
+      -2.85,
+      -0.63,
+      1.13,
+      2.47
+    ]
+  },
+  {
+    "item_id": "q_216",
+    "dimension": "BigFive_O",
+    "text": "This is a mocked question for BigFive_O (Question 216). Do you strongly agree?",
+    "a": 2.33,
+    "b": [
+      -2.91,
+      -0.6,
+      2.05,
+      2.4
+    ]
+  },
+  {
+    "item_id": "q_217",
+    "dimension": "BigFive_C",
+    "text": "This is a mocked question for BigFive_C (Question 217). Do you strongly agree?",
+    "a": 1.21,
+    "b": [
+      -2.83,
+      -0.45,
+      -0.27,
+      2.81
+    ]
+  },
+  {
+    "item_id": "q_218",
+    "dimension": "BigFive_E",
+    "text": "This is a mocked question for BigFive_E (Question 218). Do you strongly agree?",
+    "a": 2.49,
+    "b": [
+      -1.85,
+      -0.67,
+      1.06,
+      2.63
+    ]
+  },
+  {
+    "item_id": "q_219",
+    "dimension": "BigFive_A",
+    "text": "This is a mocked question for BigFive_A (Question 219). Do you strongly agree?",
+    "a": 1.9,
+    "b": [
+      -1.94,
+      -0.01,
+      0.09,
+      0.93
+    ]
+  },
+  {
+    "item_id": "q_220",
+    "dimension": "BigFive_N",
+    "text": "This is a mocked question for BigFive_N (Question 220). Do you strongly agree?",
+    "a": 1.19,
+    "b": [
+      -2.34,
+      -2.07,
+      0.82,
+      2.97
+    ]
+  },
+  {
+    "item_id": "q_221",
+    "dimension": "Cognitive",
+    "text": "This is a mocked question for Cognitive (Question 221). Do you strongly agree?",
+    "a": 2.26,
+    "b": [
+      -2.33,
+      -1.23,
+      -0.96,
+      0.65
+    ]
+  },
+  {
+    "item_id": "q_222",
+    "dimension": "Lifestyle",
+    "text": "This is a mocked question for Lifestyle (Question 222). Do you strongly agree?",
+    "a": 2.09,
+    "b": [
+      -2.74,
+      -2.02,
+      0.56,
+      2.24
+    ]
+  },
+  {
+    "item_id": "q_223",
+    "dimension": "Entertainment",
+    "text": "This is a mocked question for Entertainment (Question 223). Do you strongly agree?",
+    "a": 2.29,
+    "b": [
+      -2.62,
+      -2.11,
+      -2.04,
+      -1.79
+    ]
+  },
+  {
+    "item_id": "q_224",
+    "dimension": "BigFive_O",
+    "text": "This is a mocked question for BigFive_O (Question 224). Do you strongly agree?",
+    "a": 1.51,
+    "b": [
+      -0.4,
+      1.5,
+      2.11,
+      2.96
+    ]
+  },
+  {
+    "item_id": "q_225",
+    "dimension": "BigFive_C",
+    "text": "This is a mocked question for BigFive_C (Question 225). Do you strongly agree?",
+    "a": 0.91,
+    "b": [
+      -0.16,
+      0.91,
+      1.38,
+      2.44
+    ]
+  },
+  {
+    "item_id": "q_226",
+    "dimension": "BigFive_E",
+    "text": "This is a mocked question for BigFive_E (Question 226). Do you strongly agree?",
+    "a": 1.3,
+    "b": [
+      -1.84,
+      -1.47,
+      -0.97,
+      1.39
+    ]
+  },
+  {
+    "item_id": "q_227",
+    "dimension": "BigFive_A",
+    "text": "This is a mocked question for BigFive_A (Question 227). Do you strongly agree?",
+    "a": 1.91,
+    "b": [
+      -2.39,
+      -1.87,
+      -1.82,
+      1.58
+    ]
+  },
+  {
+    "item_id": "q_228",
+    "dimension": "BigFive_N",
+    "text": "This is a mocked question for BigFive_N (Question 228). Do you strongly agree?",
+    "a": 1.69,
+    "b": [
+      -1.73,
+      1.56,
+      2.46,
+      2.78
+    ]
+  },
+  {
+    "item_id": "q_229",
+    "dimension": "Cognitive",
+    "text": "This is a mocked question for Cognitive (Question 229). Do you strongly agree?",
+    "a": 1.01,
+    "b": [
+      0.21,
+      0.36,
+      0.66,
+      2.32
+    ]
+  },
+  {
+    "item_id": "q_230",
+    "dimension": "Lifestyle",
+    "text": "This is a mocked question for Lifestyle (Question 230). Do you strongly agree?",
+    "a": 2.02,
+    "b": [
+      -2.17,
+      0.31,
+      2.44,
+      2.73
+    ]
+  },
+  {
+    "item_id": "q_231",
+    "dimension": "Entertainment",
+    "text": "This is a mocked question for Entertainment (Question 231). Do you strongly agree?",
+    "a": 1.24,
+    "b": [
+      -2.72,
+      0.31,
+      0.46,
+      2.39
+    ]
+  },
+  {
+    "item_id": "q_232",
+    "dimension": "BigFive_O",
+    "text": "This is a mocked question for BigFive_O (Question 232). Do you strongly agree?",
+    "a": 0.89,
+    "b": [
+      -1.57,
+      -1.23,
+      0.1,
+      2.6
+    ]
+  },
+  {
+    "item_id": "q_233",
+    "dimension": "BigFive_C",
+    "text": "This is a mocked question for BigFive_C (Question 233). Do you strongly agree?",
+    "a": 1.11,
+    "b": [
+      -1.19,
+      -0.6,
+      -0.16,
+      0.12
+    ]
+  },
+  {
+    "item_id": "q_234",
+    "dimension": "BigFive_E",
+    "text": "This is a mocked question for BigFive_E (Question 234). Do you strongly agree?",
+    "a": 1.66,
+    "b": [
+      -2.89,
+      -0.9,
+      -0.27,
+      2.44
+    ]
+  },
+  {
+    "item_id": "q_235",
+    "dimension": "BigFive_A",
+    "text": "This is a mocked question for BigFive_A (Question 235). Do you strongly agree?",
+    "a": 2.13,
+    "b": [
+      -0.76,
+      0.48,
+      1.92,
+      2.2
+    ]
+  },
+  {
+    "item_id": "q_236",
+    "dimension": "BigFive_N",
+    "text": "This is a mocked question for BigFive_N (Question 236). Do you strongly agree?",
+    "a": 1.33,
+    "b": [
+      -2.64,
+      -0.31,
+      1.94,
+      1.95
+    ]
+  },
+  {
+    "item_id": "q_237",
+    "dimension": "Cognitive",
+    "text": "This is a mocked question for Cognitive (Question 237). Do you strongly agree?",
+    "a": 1.22,
+    "b": [
+      -2.04,
+      0.9,
+      1.61,
+      1.94
+    ]
+  },
+  {
+    "item_id": "q_238",
+    "dimension": "Lifestyle",
+    "text": "This is a mocked question for Lifestyle (Question 238). Do you strongly agree?",
+    "a": 1.86,
+    "b": [
+      -2.06,
+      -2.03,
+      2.27,
+      2.6
+    ]
+  },
+  {
+    "item_id": "q_239",
+    "dimension": "Entertainment",
+    "text": "This is a mocked question for Entertainment (Question 239). Do you strongly agree?",
+    "a": 0.83,
+    "b": [
+      -2.78,
+      -1.54,
+      -1.24,
+      0.26
+    ]
+  },
+  {
+    "item_id": "q_240",
+    "dimension": "BigFive_O",
+    "text": "This is a mocked question for BigFive_O (Question 240). Do you strongly agree?",
+    "a": 2.41,
+    "b": [
+      -2.51,
+      -2.02,
+      -1.06,
+      -0.95
+    ]
+  }
+]

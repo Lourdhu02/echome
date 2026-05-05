@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ECHOME Assessment</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-color: #0d0d0d;
+            --text-color: #f5f5f5;
+            --accent-color: #333333;
+            --highlight-color: #ffffff;
+            --border-color: #262626;
+        }
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            font-family: 'Inter', sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            overflow: hidden;
+        }
+        .container {
+            max-width: 600px;
+            width: 100%;
+            padding: 40px;
+            text-align: center;
+            opacity: 0;
+            transform: translateY(20px);
+            animation: fadeIn 0.8s forwards ease-out;
+        }
+        @keyframes fadeIn {
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        h1 {
+            font-weight: 300;
+            letter-spacing: 2px;
+            margin-bottom: 50px;
+            font-size: 24px;
+            color: var(--highlight-color);
+        }
+        .question-text {
+            font-size: 20px;
+            font-weight: 400;
+            line-height: 1.5;
+            margin-bottom: 40px;
+            min-height: 80px;
+        }
+        .options {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+        .btn {
+            background-color: transparent;
+            color: var(--text-color);
+            border: 1px solid var(--border-color);
+            padding: 15px 20px;
+            border-radius: 8px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            font-family: 'Inter', sans-serif;
+        }
+        .btn:hover {
+            background-color: var(--accent-color);
+            border-color: var(--highlight-color);
+        }
+        .hidden {
+            display: none !important;
+        }
+        .profile-results {
+            text-align: left;
+            background: #151515;
+            padding: 30px;
+            border-radius: 12px;
+            border: 1px solid var(--border-color);
+        }
+        .profile-results h2 {
+            margin-top: 0;
+            font-weight: 400;
+        }
+        .trait-bar {
+            background: var(--accent-color);
+            height: 6px;
+            border-radius: 3px;
+            margin-top: 8px;
+            overflow: hidden;
+        }
+        .trait-fill {
+            background: var(--highlight-color);
+            height: 100%;
+            width: 0%;
+            transition: width 1s ease-out;
+        }
+    </style>
+</head>
+<body>
+    <div class="container" id="app">
+        <h1>ECHOME</h1>
+        <div id="assessment-area">
+            <div class="question-text" id="question-text">Loading...</div>
+            <div class="options" id="options">
+                <button class="btn" onclick="submitAnswer(1)">Strongly Disagree</button>
+                <button class="btn" onclick="submitAnswer(2)">Disagree</button>
+                <button class="btn" onclick="submitAnswer(3)">Neutral</button>
+                <button class="btn" onclick="submitAnswer(4)">Agree</button>
+                <button class="btn" onclick="submitAnswer(5)">Strongly Agree</button>
+            </div>
+        </div>
+        <div id="result-area" class="hidden">
+            <div class="profile-results" id="profile-content">
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let currentItem = null;
+
+        async function fetchNext() {
+            const res = await fetch('/api/next_question');
+            const data = await res.json();
+            
+            if (data.status === 'complete') {
+                showResults();
+            } else {
+                currentItem = data;
+                document.getElementById('question-text').innerText = data.text;
+            }
+        }
+
+        async function submitAnswer(val) {
+            if (!currentItem) return;
+            document.getElementById('assessment-area').style.opacity = 0.5;
+            
+            await fetch(`/api/submit_answer?item_id=${currentItem.item_id}&answer=${val}`, {
+                method: 'POST'
+            });
+            
+            document.getElementById('assessment-area').style.opacity = 1;
+            fetchNext();
+        }
+
+        async function showResults() {
+            document.getElementById('assessment-area').classList.add('hidden');
+            document.getElementById('result-area').classList.remove('hidden');
+            
+            const res = await fetch('/api/profile');
+            const data = await res.json();
+            
+            let html = `<h2>Assessment Complete</h2>`;
+            html += `<p><strong>Archetype:</strong> ${data.archetype}</p>`;
+            html += `<p><strong>Behavioral Predictions:</strong></p><ul>`;
+            data.behavioral_predictions.forEach(p => { html += `<li>${p}</li>`; });
+            html += `</ul><h3>Percentiles</h3>`;
+            
+            for (const [trait, val] of Object.entries(data.percentiles)) {
+                html += `<div><span>${trait}</span><span style="float:right">${val.toFixed(1)}%</span>
+                         <div class="trait-bar"><div class="trait-fill" style="width: ${val}%"></div></div></div><br>`;
+            }
+            
+            document.getElementById('profile-content').innerHTML = html;
+        }
+
+        fetchNext();
+    </script>
+</body>
+</html>
