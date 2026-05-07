@@ -1,77 +1,80 @@
-# ECHOME: High-Precision Adaptive Assessment Engine
+# ECHOME: Embedded Cognitive Human Operative Mirror Engine
 
-ECHOME is a sophisticated Computerized Adaptive Testing (CAT) framework designed to estimate latent human traits with maximal efficiency and mathematical rigor. By leveraging Graded Response Models (GRM) and Bayesian estimation, the engine dynamically recalibrates its internal state with every user interaction, ensuring that every question asked provides the highest possible information gain.
+ECHOME is a sophisticated "Digital Extension" framework designed to clone and automate a user's identity across three fundamental pillars: **Mind**, **Voice**, and **Action**. Built entirely from open-source components and designed for full local execution, ECHOME transitions from a personality assessment tool into a Jarvis-grade personal intelligence layer.
 
-Developed by Raju, this project serves as a demonstration of production-grade AI/ML engineering, combining psychometric theory with a high-performance FastAPI backend and a minimalist, elite design system.
+Developed by Raju, an AI/ML Engineer, ECHOME is a showcase of production-grade engineering, merging psychometrics, voice synthesis, and autonomous agent orchestration.
 
-## Core Capabilities
+## 🏛️ The Three Pillars
 
-### 1. Mathematical Precision
-The engine utilizes the Graded Response Model (GRM), a specialized form of Item Response Theory (IRT) for polytomous data. Latent trait estimation (Theta) is performed using Maximum A Posteriori (MAP) optimization, which balances the observed likelihood with a standard normal prior to ensure stability even with sparse data.
+### Pillar 1: Mind (Personality Engine)
+The foundation of ECHOME is a high-precision **Computerized Adaptive Testing (CAT)** system. It utilizes **Graded Response Models (GRM)** to accurately map a user's latent traits across 8 dimensions:
+- Big Five (OCEAN)
+- Cognitive Style
+- Lifestyle & Habits
+- Entertainment & Media
+- Sports & Athletics
+- Hobbies & Creative
+- Travel & Exploration
+- Social & Relationships
 
-### 2. Information-Theoretic Item Selection
-To minimize assessment length without compromising reliability, ECHOME implements active item selection based on Fisher Information. The engine calculates the expected information for every candidate item in the bank relative to the user's current estimated Theta, selecting the item that most effectively reduces the standard error of measurement.
+The engine uses **Fisher Information** optimization to minimize assessment length while maintaining a Standard Error (SE) < 0.32.
 
-### 3. Dynamic Profiling and Synthesis
-Upon reaching the target precision (Standard Error < 0.32), the engine maps the latent multidimensional traits to human-readable percentiles and generates a behavioral synthesis. This involves mapping raw scores to archetypes and predicting behavioral tendencies based on established psychological frameworks.
+### Pillar 2: Voice (Voice Clone Engine)
+A fully local, 4-stage voice cloning pipeline that captures your speaker identity and reproduces it for all synthesized output:
+1. **ASR:** OpenAI Whisper (Local) for speech-to-text.
+2. **Encoder:** Resemblyzer for d-vector vocal fingerprint extraction.
+3. **Synthesis:** Coqui TTS (XTTSv2) for zero-shot voice cloning.
+4. **Vocoder:** HiFi-GAN for high-fidelity 22kHz audio generation.
 
-## Technical Architecture
+### Pillar 3: Action (Agent Framework)
+An autonomous execution layer powered by **LangGraph** and **LangChain**. It routes tasks to specialist agents:
+- **BashAgent:** System operations and shell execution.
+- **TechAgent:** Architecture and engineering analysis.
+- **FileAgent:** Autonomous file management.
+- **MemoryManager:** A 3-tier memory system (Episodic, Semantic, Procedural) based on the CoALA framework.
 
-### Backend Stack
-- Framework: FastAPI (Asynchronous, Type-Safe)
-- Computation: NumPy, SciPy (Optimization & Statistics)
-- Validation: Pydantic v2 (Strict Data Modeling)
-- Environment: Docker & Docker Compose
+## 🚀 Technical Stack
 
-### Frontend Philosophy
-The user interface follows a "Less is More" philosophy. Built with pure Vanilla CSS and JavaScript, it prioritizes typography, motion design, and high-contrast dark-mode aesthetics to provide a premium, focused user experience.
+- **Orchestration:** LangGraph, LangChain
+- **Backend:** FastAPI, Python 3.10+
+- **Machine Learning:** PyTorch, SciPy, NumPy
+- **Voice:** Whisper, Coqui TTS, Resemblyzer
+- **Memory:** Qdrant (Vector DB), Mem0
+- **Containerization:** Docker & Docker Compose
 
-## Getting Started
+## 🛠️ Getting Started
 
-### Prerequisites
-- Python 3.10+
-- Docker (Optional)
+### Installation
+```bash
+git clone https://github.com/Lourdhu02/echome.git
+cd echome
+pip install -r requirements.txt
+```
 
-### Installation (Local)
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/echome.git
-   cd echome
-   ```
-2. Install requirements:
-   ```bash
-   pip install -r requirements.txt
-   ```
-3. Initialize the Item Bank:
-   ```bash
-   python generate_real_items.py
-   ```
-4. Launch the Engine:
-   ```bash
-   uvicorn src.assessment_app:app --reload
-   ```
+### Initialize the Mind Engine
+```bash
+python generate_real_items.py
+```
 
-### Deployment (Docker)
-The application is fully containerized for production parity:
+### Launch the Full Environment
+```bash
+# Start the FastAPI Assessment App and Agent Orchestrator
+uvicorn src.assessment_app:app --reload
+```
+
+### Docker Deployment
 ```bash
 docker-compose up --build
 ```
-The application will be available at `http://localhost:8000`.
 
-## Testing Suite
-The codebase maintains high integrity through a comprehensive testing suite powered by `pytest`.
-```bash
-pytest tests/
-```
-
-## Repository Structure
-- `src/assessment_app.py`: Main API orchestration and endpoint management.
-- `src/cat_engine.py`: Core IRT implementation and optimization logic.
-- `src/models.py`: Unified Pydantic schema declarations.
-- `src/profile_generator.py`: Behavioral mapping and percentile synthesis logic.
-- `src/static/`: Premium minimalist frontend assets.
-- `data/`: Local storage for item banks and generated profiles.
+## 📂 Repository Structure
+- `src/assessment_app.py`: FastAPI API and Mind Engine interface.
+- `src/orchestrator.py`: LangGraph-based agent routing logic (Action Pillar).
+- `src/voice_engine.py`: Whisper and XTTSv2 integration (Voice Pillar).
+- `src/memory_manager.py`: 3-tier memory system implementation.
+- `src/agents/`: Specialist agent implementations.
+- `src/cat_engine.py`: IRT and MAP optimization logic.
 
 ---
 Engineered by Raju | AI/ML Engineer
-Precision. Scale. Synthesis.
+*The digital mirror. Built to scale, designed to be you.*
