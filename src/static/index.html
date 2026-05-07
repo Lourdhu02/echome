@@ -1,172 +1,304 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="dark">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ECHOME Assessment</title>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <title>ECHOME Engine</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
     <style>
         :root {
-            --bg-color: #0d0d0d;
-            --text-color: #f5f5f5;
-            --accent-color: #333333;
-            --highlight-color: #ffffff;
-            --border-color: #262626;
+            --bg: #0a0a0a;
+            --surface: #171717;
+            --surface-hover: #262626;
+            --text-primary: #ededed;
+            --text-secondary: #a3a3a3;
+            --accent: #ffffff;
+            --border: #262626;
         }
         body {
-            background-color: var(--bg-color);
-            color: var(--text-color);
+            background-color: var(--bg);
+            color: var(--text-primary);
             font-family: 'Inter', sans-serif;
+            margin: 0;
             display: flex;
             justify-content: center;
             align-items: center;
-            height: 100vh;
-            margin: 0;
+            min-height: 100vh;
             overflow: hidden;
+            letter-spacing: -0.02em;
         }
-        .container {
-            max-width: 600px;
+        .app-container {
             width: 100%;
-            padding: 40px;
-            text-align: center;
-            opacity: 0;
-            transform: translateY(20px);
-            animation: fadeIn 0.8s forwards ease-out;
-        }
-        @keyframes fadeIn {
-            to {
-                opacity: 1;
-                transform: translateY(0);
-            }
-        }
-        h1 {
-            font-weight: 300;
-            letter-spacing: 2px;
-            margin-bottom: 50px;
-            font-size: 24px;
-            color: var(--highlight-color);
-        }
-        .question-text {
-            font-size: 20px;
-            font-weight: 400;
-            line-height: 1.5;
-            margin-bottom: 40px;
-            min-height: 80px;
-        }
-        .options {
+            max-width: 640px;
+            padding: 2rem;
+            box-sizing: border-box;
             display: flex;
             flex-direction: column;
-            gap: 15px;
+            justify-content: center;
+            height: 100%;
         }
-        .btn {
-            background-color: transparent;
-            color: var(--text-color);
-            border: 1px solid var(--border-color);
-            padding: 15px 20px;
-            border-radius: 8px;
-            font-size: 16px;
-            cursor: pointer;
-            transition: all 0.3s ease;
-            font-family: 'Inter', sans-serif;
+        .header {
+            position: absolute;
+            top: 2rem;
+            left: 2rem;
+            right: 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 0.85rem;
+            color: var(--text-secondary);
+            font-weight: 500;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
         }
-        .btn:hover {
-            background-color: var(--accent-color);
-            border-color: var(--highlight-color);
+        .fade-container {
+            transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+            opacity: 0;
+            transform: translateY(15px);
         }
-        .hidden {
-            display: none !important;
+        .fade-container.visible {
+            opacity: 1;
+            transform: translateY(0);
         }
-        .profile-results {
-            text-align: left;
-            background: #151515;
-            padding: 30px;
-            border-radius: 12px;
-            border: 1px solid var(--border-color);
+        .question-wrapper {
+            margin-bottom: 4rem;
+            min-height: 120px;
+            display: flex;
+            align-items: center;
         }
-        .profile-results h2 {
-            margin-top: 0;
+        h2 {
+            font-size: 2.25rem;
             font-weight: 400;
+            line-height: 1.3;
+            margin: 0;
+            color: var(--text-primary);
         }
-        .trait-bar {
-            background: var(--accent-color);
-            height: 6px;
-            border-radius: 3px;
-            margin-top: 8px;
+        .scale-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 1rem;
+            position: relative;
+        }
+        .scale-line {
+            position: absolute;
+            top: 50%;
+            left: 5%;
+            right: 5%;
+            height: 1px;
+            background: var(--border);
+            z-index: 0;
+        }
+        .scale-btn {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            color: var(--text-secondary);
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+            font-family: inherit;
+            font-size: 1.1rem;
+            font-weight: 500;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            position: relative;
+            z-index: 1;
+        }
+        .scale-btn:hover, .scale-btn:focus {
+            background: var(--accent);
+            color: var(--bg);
+            transform: scale(1.15);
+            border-color: var(--accent);
+            outline: none;
+            box-shadow: 0 0 15px rgba(255,255,255,0.1);
+        }
+        .scale-labels {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 1.5rem;
+            font-size: 0.8rem;
+            color: var(--text-secondary);
+            font-weight: 500;
+        }
+        .profile-view {
+            display: none;
+        }
+        .trait-row {
+            margin-bottom: 1.5rem;
+        }
+        .trait-header {
+            display: flex;
+            justify-content: space-between;
+            font-size: 0.95rem;
+            margin-bottom: 0.75rem;
+            color: var(--text-primary);
+        }
+        .trait-bar-bg {
+            height: 4px;
+            background: var(--surface);
+            border-radius: 2px;
             overflow: hidden;
         }
-        .trait-fill {
-            background: var(--highlight-color);
+        .trait-bar-fill {
             height: 100%;
-            width: 0%;
-            transition: width 1s ease-out;
+            background: var(--accent);
+            width: 0;
+            transition: width 1.2s cubic-bezier(0.22, 1, 0.36, 1);
+        }
+        .archetype {
+            font-size: 1.75rem;
+            font-weight: 300;
+            margin-bottom: 2rem;
+            color: var(--accent);
+            letter-spacing: -0.03em;
+        }
+        .spinner {
+            width: 24px;
+            height: 24px;
+            border: 2px solid var(--border);
+            border-top-color: var(--accent);
+            border-radius: 50%;
+            animation: spin 0.8s linear infinite;
+            margin: 0 auto;
+        }
+        @keyframes spin { to { transform: rotate(360deg); } }
+        .hidden { display: none !important; }
+        
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            padding: 0.5rem 0;
+            border-bottom: 1px solid var(--border);
+            color: var(--text-secondary);
+            font-size: 0.95rem;
+        }
+        li:last-child {
+            border-bottom: none;
         }
     </style>
 </head>
 <body>
-    <div class="container" id="app">
-        <h1>ECHOME</h1>
-        <div id="assessment-area">
-            <div class="question-text" id="question-text">Loading...</div>
-            <div class="options" id="options">
-                <button class="btn" onclick="submitAnswer(1)">Strongly Disagree</button>
-                <button class="btn" onclick="submitAnswer(2)">Disagree</button>
-                <button class="btn" onclick="submitAnswer(3)">Neutral</button>
-                <button class="btn" onclick="submitAnswer(4)">Agree</button>
-                <button class="btn" onclick="submitAnswer(5)">Strongly Agree</button>
+    <div class="header">
+        <span>ECHOME</span>
+        <span id="dimension-label">Initializing...</span>
+    </div>
+
+    <div class="app-container">
+        <div id="loader" class="spinner"></div>
+        
+        <div id="assessment-view" class="fade-container hidden">
+            <div class="question-wrapper">
+                <h2 id="question-text"></h2>
+            </div>
+            
+            <div style="position: relative;">
+                <div class="scale-container">
+                    <div class="scale-line"></div>
+                    <button class="scale-btn" onclick="submitAnswer(1)">1</button>
+                    <button class="scale-btn" onclick="submitAnswer(2)">2</button>
+                    <button class="scale-btn" onclick="submitAnswer(3)">3</button>
+                    <button class="scale-btn" onclick="submitAnswer(4)">4</button>
+                    <button class="scale-btn" onclick="submitAnswer(5)">5</button>
+                </div>
+                <div class="scale-labels">
+                    <span>Strongly Disagree</span>
+                    <span>Neutral</span>
+                    <span>Strongly Agree</span>
+                </div>
             </div>
         </div>
-        <div id="result-area" class="hidden">
-            <div class="profile-results" id="profile-content">
+
+        <div id="profile-view" class="profile-view fade-container">
+            <div class="archetype" id="archetype-label"></div>
+            <div id="traits-container"></div>
+            <br>
+            <div style="margin-top: 1rem;">
+                <span style="font-size: 0.85rem; color: var(--text-secondary); text-transform: uppercase; letter-spacing: 0.1em;">Behavioral Synthesis</span>
+                <ul id="behaviors-list" style="margin-top:1rem;"></ul>
             </div>
         </div>
     </div>
 
     <script>
         let currentItem = null;
+        const view = document.getElementById('assessment-view');
+        const loader = document.getElementById('loader');
 
         async function fetchNext() {
-            const res = await fetch('/api/next_question');
-            const data = await res.json();
-            
-            if (data.status === 'complete') {
-                showResults();
-            } else {
-                currentItem = data;
-                document.getElementById('question-text').innerText = data.text;
+            try {
+                const res = await fetch('/api/next_question');
+                const data = await res.json();
+                
+                loader.classList.add('hidden');
+                
+                if (data.status === 'complete') {
+                    showProfile();
+                } else {
+                    currentItem = data;
+                    document.getElementById('question-text').innerText = data.text;
+                    const dimLabel = data.dimension.replace('_', ' ');
+                    document.getElementById('dimension-label').innerText = dimLabel;
+                    view.classList.remove('hidden');
+                    // slight delay to allow display:block to apply before opacity transition
+                    setTimeout(() => { view.classList.add('visible'); }, 50);
+                }
+            } catch (e) {
+                console.error("Failed to fetch next question:", e);
             }
         }
 
         async function submitAnswer(val) {
             if (!currentItem) return;
-            document.getElementById('assessment-area').style.opacity = 0.5;
             
-            await fetch(`/api/submit_answer?item_id=${currentItem.item_id}&answer=${val}`, {
-                method: 'POST'
-            });
-            
-            document.getElementById('assessment-area').style.opacity = 1;
-            fetchNext();
+            view.classList.remove('visible');
+            setTimeout(async () => {
+                try {
+                    await fetch(`/api/submit_answer?item_id=${currentItem.item_id}&answer=${val}`, { method: 'POST' });
+                    fetchNext();
+                } catch (e) {
+                    console.error("Failed to submit answer:", e);
+                    view.classList.add('visible'); // Revert on fail
+                }
+            }, 400); // Wait for fade out animation
         }
 
-        async function showResults() {
-            document.getElementById('assessment-area').classList.add('hidden');
-            document.getElementById('result-area').classList.remove('hidden');
+        async function showProfile() {
+            view.classList.add('hidden');
+            document.getElementById('dimension-label').innerText = 'PROFILE GENERATED';
+            const pView = document.getElementById('profile-view');
+            pView.style.display = 'block';
             
-            const res = await fetch('/api/profile');
-            const data = await res.json();
-            
-            let html = `<h2>Assessment Complete</h2>`;
-            html += `<p><strong>Archetype:</strong> ${data.archetype}</p>`;
-            html += `<p><strong>Behavioral Predictions:</strong></p><ul>`;
-            data.behavioral_predictions.forEach(p => { html += `<li>${p}</li>`; });
-            html += `</ul><h3>Percentiles</h3>`;
-            
-            for (const [trait, val] of Object.entries(data.percentiles)) {
-                html += `<div><span>${trait}</span><span style="float:right">${val.toFixed(1)}%</span>
-                         <div class="trait-bar"><div class="trait-fill" style="width: ${val}%"></div></div></div><br>`;
+            try {
+                const res = await fetch('/api/profile');
+                const data = await res.json();
+                
+                document.getElementById('archetype-label').innerText = data.archetype;
+                
+                const tCont = document.getElementById('traits-container');
+                tCont.innerHTML = '';
+                for (const [trait, val] of Object.entries(data.percentiles)) {
+                    tCont.innerHTML += `
+                        <div class="trait-row">
+                            <div class="trait-header"><span>${trait.replace('_', ' ')}</span><span>${val.toFixed(0)}%</span></div>
+                            <div class="trait-bar-bg"><div class="trait-bar-fill" style="width: ${val}%"></div></div>
+                        </div>`;
+                }
+                
+                const bList = document.getElementById('behaviors-list');
+                bList.innerHTML = '';
+                data.behavioral_predictions.forEach(p => {
+                    bList.innerHTML += `<li>${p}</li>`;
+                });
+
+                setTimeout(() => { pView.classList.add('visible'); }, 100);
+            } catch (e) {
+                console.error("Failed to fetch profile:", e);
             }
-            
-            document.getElementById('profile-content').innerHTML = html;
         }
 
         fetchNext();
